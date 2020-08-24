@@ -14,6 +14,10 @@
                     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
                 }
 
+                .user-name {
+                    color: $grey !important;
+                }
+
                 .collapse.navbar-collapse {
                     .nav-item {
                         .nav-link {
