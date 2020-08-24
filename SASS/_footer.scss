@@ -1,0 +1,20 @@
+/* ---------------- */
+    /* FOOTER */
+/* ---------------- */
+
+footer {
+    margin-top: 8em;
+    padding-top: 1.5em;
+    background-color: $greyThree;
+
+    .container {
+        .row {
+            .col-12 {
+                p {
+                    font-size: 1.2em;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

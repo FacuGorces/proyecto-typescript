@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de TypeScript</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+    <!-- MENU DE NAVEGACIÓN -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Photo Shop New</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">Sobre Nosotros</a>
+                    </li>
+                </ul>
+                <div class="login my-2 my-lg-0" id="loginModalButtonContainer">
+                    <a href="#loginModal" class="btn btn-primary my-2 my-sm-0" data-toggle="modal">Iniciar Sesion</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- SLIDER -->
+    <section class="slider-home" style="background-image: url('IMG/slider-home.jpg');"></section>
+    </header>
+    
+    <main>
+        <!-- GALLERY -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <h2>Galeria</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, odit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-lightbox">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-1.jpg" data-lightbox="image-1" data-title="Imagen #1">
+                            <img src="IMG/image-1.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-2.jpg" data-lightbox="image-2" data-title="Imagen #2">
+                            <img src="IMG/image-2.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-3.jpg" data-lightbox="image-3" data-title="Imagen #3">
+                            <img src="IMG/image-3.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-4.jpg" data-lightbox="image-4" data-title="Imagen #4">
+                            <img src="IMG/image-4.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-5.jpg" data-lightbox="image-5" data-title="Imagen #5">
+                            <img src="IMG/image-5.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="IMG/image-6.jpg" data-lightbox="image-6" data-title="Imagen #6">
+                            <img src="IMG/image-6.jpg" alt="" class="img-fluid img-gallery">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIMONIALS -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <h2>Testimonios</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam vitae exercitationem possimus pariatur quam ut.</p>
+                    </div>
+                </div>
+                <div class="testimonials-clients">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <div class="testimonial">
+                                <img src="IMG/testimonial-1.jpg" alt="" class="testimonial-img">
+                                <div class="testimonial-info">
+                                    <h3 class="testimonial-name">John Doe</h3>
+                                    <p class="testimonial-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magnam veritatis cum facilis sit eum nulla!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="testimonial">
+                                <img src="IMG/testimonial-2.jpg" alt="" class="testimonial-img">
+                                <div class="testimonial-info">
+                                    <h3 class="testimonial-name">Anna Deynah</h3>
+                                    <p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ex illum voluptas accusamus non quis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="testimonial">
+                                <img src="IMG/testimonial-3.jpg" alt="" class="testimonial-img">
+                                <div class="testimonial-info">
+                                    <h3 class="testimonial-name">Maria Kate</h3>
+                                    <p class="testimonial-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus voluptas rem quis laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT-US -->
+        <section class="about-us" id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <h2>Sobre Nosotros</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="about-us-info">
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-md-9">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 about-us-img">
+                                    <img src="IMG/about-us.jpg" alt="" class="img-fluid rounded">
+                                </div>
+                                <div class="col-xs-12 col-md-6 about-us-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium facilis porro perferendis doloribus aliquam asperiores provident laboriosam quos quisquam quibusdam neque totam aut voluptates, officia distinctio earum illum maxime odio. Et libero maiores voluptatum facilis aliquam voluptatem quibusdam voluptatibus mollitia! Ducimus consectetur nobis quo ullam, exercitationem repellendus atque dolor commodi, excepturi maiores, molestiae quis veniam? Molestiae, sapiente! Aliquam est quia, facere recusandae ducimus nemo natus! Voluptas doloremque facere voluptatem necessitatibus at deleniti perferendis. Illo fugiat voluptate nihil alias, esse vero similique dolore consequatur aliquam omnis, odio necessitatibus. Ducimus ab, doloremque veritatis tempora ipsum adipisci eligendi itaque et perspiciatis nulla debitis assumenda architecto blanditiis, facere cupiditate. Commodi dolor debitis, aliquam molestiae eligendi incidunt dignissimos nihil quod optio necessitatibus reiciendis tempore maxime nam quam sed. Sapiente?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quasi consectetur esse totam quod harum voluptatum sint, qui reprehenderit sunt quo enim autem sit tenetur cupiditate repellat, odit corrupti laborum? Impedit, ab temporibus sit nobis beatae magni. Magni eius, consectetur possimus nostrum impedit perspiciatis laudantium maxime laboriosam adipisci maiores quas temporibus commodi dolor vitae repudiandae accusamus asperiores, id, odio corrupti? Ullam impedit debitis sint dolor quae rem doloribus, natus dolorum voluptatibus inventore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">&copy;2020 Proyecto creado por <a href="https://facundocaceres.com/">Facundo Caceres</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade protfolio-modal" id="loginModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="">User:</label>
+                <input type="text" name="username" id="username" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Pass:</label>
+                <input type="password" name="password" id="password" class="form-control">
+              </div>
+              <button data-dismiss="modal" type="submit" class="btn btn-block btn-primary" id="loginButton">Iniciar Sesión</button>
+            </div>
+          </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.config({
+            baseURL: '/',
+            defaultJSExtensions: true
+        });
+        System.import('JS/main.js');
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* ------------------ */
+    /* VARIABLES */
+/* ------------------ */
+
+$fontSize: 12px;
+$fontFamily: 'Open Sans', Arial;
+
+$white: #fafafa;
+$grey: #343434;
+$greyTwo: #444444;
+$greyThree: #333333;
+$blue: #4285f4;
+
+/* -------------------------- */
+    /* ESTILOS GENERALES */
+/* -------------------------- */
+
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container { max-width: 1280px !important; width: 90% !important; }
+
+main { min-height: 120vh; }
+
+.section-title {
+    text-align: center;
+
+    h2 {
+        font-size: 3.3em;
+        font-weight: 700;
+        color: $grey;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.15em;
+        font-weight: 300;
+        color: $greyTwo;
+    }
+}
+
+/* -------------------------- */
+    /* ARCHIVOS EXTERNOS */
+/* -------------------------- */
+
+@import 'header';
+@import 'gallery';
+@import 'testimonials';
+@import 'about-us';
+@import 'footer';
+@import 'responsive-design';

@@ -1,0 +1,41 @@
+/* ------------------------ */
+    /* RESPONSIVE DESIGN */
+/* ------------------------ */
+
+@media (max-width: 768px) {
+    header {
+        .navbar {
+            background: $white;
+
+            .container {
+                .navbar-brand { color: $grey; }
+
+                .navbar-toggler-icon {
+                    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+                }
+
+                .collapse.navbar-collapse {
+                    .nav-item {
+                        .nav-link {
+                            color: $grey;
+                            border: 1px solid transparent !important;
+                            text-align: center;
+                        }
+                    }
+
+                    .login {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-us {
+        .about-us-info {
+            .about-us-description {
+                margin-top: 2em;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+/* -------------------------- */
+    /* TESTIMONIALS */
+/* -------------------------- */
+
+.testimonials {
+    padding-top: 6em;
+
+    .testimonials-clients {
+        margin-top: 2em;
+        
+        .row {
+            .col-xs-12.col-md-4 {
+                .testimonial {
+                    text-align: center;
+
+                    .testimonial-img {
+                        max-width: 112px;
+                        border-radius: 100%;
+                        padding: 0.2em;
+                        border: 2px solid $grey;
+                        transition: border 250ms ease-in;
+
+                        &:hover {
+                            border: 2px solid $blue;
+                        }
+                    }
+
+                    .testimonial-info {
+                        margin-top: 1em;
+
+                        .testimonial-name {
+                            font-size: 2.6em;
+                            font-weight: 300;
+                            color: $greyTwo;
+                        }
+
+                        .testimonial-description {
+                            font-size: 1.3em;
+                            line-height: 1.6em;
+                            font-weight: 500;
+                            color: $grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
